@@ -16,7 +16,7 @@ def read_txt(path):
             bounding_box.append([i[1], i[2], i[3], i[4].rstrip('\n')])
             return file_names, bounding_box
 
-def red_image(image_list, path):
+def read_image(image_list, path):
     images = []
     for image in image_list:
         IMAGE_PATH = os.path.join(path, image.split('_')[0], 'images', image)

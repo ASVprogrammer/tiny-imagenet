@@ -37,6 +37,3 @@ def set_label(file_name):
 
 
 
-#image_list = read_image(read_txt(...)[0],)
-
-
